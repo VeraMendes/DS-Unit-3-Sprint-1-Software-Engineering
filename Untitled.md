@@ -182,7 +182,9 @@ We have an awful lot of computers here, and it gets pretty confusing with slight
 
 Answer: One person can create an environment with all libraries and packages that are necessary for run a code and other people just need to access and pull that environment and run it in their own machines.
 
-Answer both of these questions (baseline ~5 sentences) here in text.
+## Code review is import to make sure that the code is reproducible and easy to read. We read more times code than we write and this should follow PEP8 to be readable in a way that everyone can understand. If an employee leaves the job, we want to make sure the code he/she wrote before can continue to be used. Wehn doing code review, you should look for the best aspects you see on the code giving your glow points and some points you think that can be improved, giving your grow points.
+
+## Containers helps for testing purposes, you can make sure you create a package that can be read in different computers. Inside a virtual environment. With containers, instead of virtualizing the underlying computer like a virtual machine (VM), just the OS is virtualized.Containers sit on top of a physical server and its host OS — typically Linux or Windows. Each container shares the host OS kernel and, usually, the binaries and libraries, too. Shared components are read-only. Sharing OS resources such as libraries significantly reduces the need to reproduce the operating system code, and means that a server can run multiple workloads with a single operating system installation. 
 
 Part 8 - Turn it in!
 Add all the files you wrote (acme.py, acme_report.py, and acme_test.py), as well as this file with your answers to part 7, to your weekly repo (DS-Unit-3-Sprint-1-Software-Engineering). Commit, push, and await feedback from Acme Corporation management. Thanks for your hard work!
